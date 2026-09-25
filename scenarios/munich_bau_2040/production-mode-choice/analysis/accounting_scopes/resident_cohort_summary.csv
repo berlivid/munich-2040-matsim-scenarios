@@ -1,0 +1,4 @@
+scenario_id,cohort_status,sample_factor,unit,sample_person_count,expanded_person_count_factor_20,sample_daily_main_trip_count,expanded_daily_main_trip_count_factor_20,illustrative_annual_equivalent_365_days,included_in_munich_residents_scope,definition
+BAU_2040,RESIDENT,0.05,persons_and_trips,80935,1618700.000000000000,161870,3237400.000000000000,1181651000.000000000000,true,"first documented selected-plan home activity classified with boundary covers"
+BAU_2040,NON_RESIDENT,0.05,persons_and_trips,147655,2953100.000000000000,295310,5906200.000000000000,2155763000.000000000000,false,"first documented selected-plan home activity classified with boundary covers"
+BAU_2040,UNRESOLVED,0.05,persons_and_trips,107618,2152360.000000000000,107618,2152360.000000000000,785611400.000000000000,false,"no identifiable non-stage home activity with a finite coordinate; excluded from resident cohort"

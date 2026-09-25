@@ -1,0 +1,58 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Eclipse
+/.settings/
+/.project
+/.classpath
+
+/target/
+/output/
+/test/output/
+/bin/
+
+# IntelliJ
+/.idea/
+*.iml
+
+# Large MATSim Munich input files
+scenarios/munich_*/studyNetworkDense.xml
+scenarios/munich_*/munich-v1.0-5pct.plans.xml
+scenarios/munich_*/population_2040*.xml
+
+original-input-data/munich-v1/studyNetworkDense.xml
+original-input-data/munich-v1/munich-v1.0-5pct.plans.xml
+
+# Scenario outputs
+scenarios/munich_*/output/
+
+# MATSim output directories at any directory level
+**/output/
+**/smoke-output/
+
+# Archived GTFS source data and generated transit artifacts
+/original-input-data/mvv_gtfs/gesamt_gtfs.zip
+/original-input-data/mvv_gtfs_2026/*.zip
+/original-input-data/mvv_gtfs_2019/*.zip
+/original-input-data/mvv_gtfs_2037/raw/*.txt
+/original-input-data/mvv_gtfs_2037/generated/*.zip
+/original-input-data/mvv_gtfs_2037/generated/fast_track_preflight/
+/original-input-data/mvv_gtfs_2037/generated/common_measures_preflight/
+/scenarios/munich_*/input_transit/*.xml.gz
+/scenarios/munich_calibration_2019/input_transit/*.xml.gz
+/scenarios/munich_calibration_2019/output*/
+/scenarios/munich_calibration_2019/**/output*/
+/generated/munich_trip_boundary_preflight/
+
+# Microsoft Office lock files
+~$*.xlsx

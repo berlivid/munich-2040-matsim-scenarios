@@ -1,0 +1,11 @@
+parameter,BAU 2040,Fast Track 2040,status
+controller.runId,munich-bau-2040,munich-fast-track-2040,scenario-specific
+controller.outputDirectory,output/bau,output/fast-track,scenario-specific
+network.inputNetworkFile,input_transit/network-with-pt.xml.gz,input_transit/network-with-pt.xml.gz,same relative path and scenario-specific file
+transit.transitScheduleFile,input_transit/transitSchedule.xml.gz,input_transit/transitSchedule.xml.gz,same relative path and scenario-specific file
+transit.vehiclesFile,input_transit/transitVehicles.xml.gz,input_transit/transitVehicles.xml.gz,same relative path and scenario-specific file
+transit.useTransit,true,true,identical
+global.coordinateSystem,EPSG:31468,EPSG:31468,identical
+plans.inputPlansFile,population_2040.xml,population_2040_fast_track.xml,scenario-specific village relocation
+qsim.flowCapacityFactor,0.05,0.05,identical
+qsim.storageCapacityFactor,0.05,0.05,identical

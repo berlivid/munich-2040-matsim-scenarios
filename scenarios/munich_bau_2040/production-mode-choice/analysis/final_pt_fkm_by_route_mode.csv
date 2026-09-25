@@ -1,0 +1,6 @@
+scenario_id,sample_factor,unit,pt_route_mode,observed_full_service_vehicle_km,reported_full_service_vehicle_km,considered_boardings,measurement_coverage_percent,missing_route_or_vehicle_references,definition
+BAU_2040,0.05,vehicle_km,bus,574435.557746342800,574435.557746342800,40567,100.000000000000,0,"actual transit-vehicle link-event distance; service supply is simulated at full scale and is therefore not multiplied by 20"
+BAU_2040,0.05,vehicle_km,ferry,611.471248454205,611.471248454205,1,100.000000000000,0,"actual transit-vehicle link-event distance; service supply is simulated at full scale and is therefore not multiplied by 20"
+BAU_2040,0.05,vehicle_km,rail,846034.333118257200,846034.333118257200,35636,100.000000000000,0,"actual transit-vehicle link-event distance; service supply is simulated at full scale and is therefore not multiplied by 20"
+BAU_2040,0.05,vehicle_km,subway,83247.610347969680,83247.610347969680,41177,100.000000000000,0,"actual transit-vehicle link-event distance; service supply is simulated at full scale and is therefore not multiplied by 20"
+BAU_2040,0.05,vehicle_km,tram,82473.446277340740,82473.446277340740,18770,100.000000000000,0,"actual transit-vehicle link-event distance; service supply is simulated at full scale and is therefore not multiplied by 20"

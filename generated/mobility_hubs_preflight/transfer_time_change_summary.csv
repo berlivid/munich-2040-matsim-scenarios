@@ -1,0 +1,14 @@
+hub_id,approved_rank,size_class,mp_id,lhm_location_name,existing_explicit_relations_in_approved_complex,included_relations,excluded_self_relations,excluded_other_relations,boundary_relations_observed,original_min_s,original_mean_s,original_max_s,proposed_min_s,proposed_mean_s,proposed_max_s,floor_bound_relations
+FT_MH_OSTBAHNHOF,1,large,506,Ostbahnhof/Belfortstraße,129,114,15,0,0,180,180.000,180,144,144.000,144,0
+FT_MH_ZOB_HACKERBRUECKE,2,large,312,ZOB,37,30,7,0,0,300,300.000,300,240,240.000,240,0
+FT_MH_MOOSACH,3,large,1002,Moosach Bahnhof,144,132,12,0,0,180,180.000,180,144,144.000,144,0
+FT_MH_MUENCHNER_FREIHEIT,4,large,62,Münchner Freiheit,81,72,9,0,0,180,180.000,180,144,144.000,144,0
+FT_MH_ROSENHEIMER_PLATZ,5,medium,503,Rosenheimer Platz,25,20,5,0,0,300,300.000,300,255,255.000,255,0
+FT_MH_ISARTOR,6,medium,203,Baaderstraße,25,20,5,0,0,300,300.000,300,255,255.000,255,0
+FT_MH_GIESING,7,medium,49,Giesinger Bahnhof,196,182,14,0,0,180,180.000,180,153,153.000,153,0
+FT_MH_SCHEIDPLATZ,8,medium,402,Scheidplatz,104,92,12,0,0,180,180.000,180,153,153.000,153,0
+FT_MH_HOHENZOLLERNPLATZ,9,small,401,Hohenzollernplatz,16,12,4,0,0,180,180.000,180,162,162.000,162,0
+FT_MH_GRILLPARZERSTRASSE,10,small,510,Grillparzerstraße,36,30,6,0,0,180,180.000,180,162,162.000,162,0
+FT_MH_ROTKREUZPLATZ,11,small,27,Rotkreuzplatz,64,56,8,0,0,180,180.000,180,162,162.000,162,0
+FT_MH_ODEONSPLATZ,12,small,1,Galeriestraße,36,30,6,0,0,180,180.000,180,162,162.000,162,0
+TOTAL,,all,,All approved Mobility Hubs,893,790,103,0,0,180,190.633,300,144,159.304,255,0

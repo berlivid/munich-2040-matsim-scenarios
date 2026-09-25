@@ -1,0 +1,150 @@
+parameter_key,parameter_group,parameter,required_value,unit_or_scope,authoritative_source,production_rule,notes
+calibration.asc.car,scoring,car alternative-specific constant,-0.35175057259662179,utils,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Round 5 frozen value
+calibration.asc.pt,scoring,pt alternative-specific constant,0.16187543976517921,utils,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Round 5 frozen value
+calibration.asc.bike,scoring,bike alternative-specific constant,-1.2617442557140233,utils,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Round 5 frozen value
+calibration.asc.walk,scoring,walk alternative-specific constant,0.0,utils,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Walk is the permanent reference alternative
+scoring.brainExpBeta,scoring,BrainExpBeta,1.0,dimensionless,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen structural scoring
+scoring.learningRate,scoring,learningRate,1.0,dimensionless,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen structural scoring
+scoring.performing,scoring,marginal utility of performing,6.0,utils/hour,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Inherited literature-based diagnostic value
+scoring.money,scoring,marginal utility of money,1.0,utils/money_unit,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Inherited literature-based diagnostic value
+scoring.waiting,scoring,marginal utility of waiting,-0.0,utils/hour,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,General waiting term
+scoring.waiting_pt,scoring,marginal utility of PT waiting,-6.0,utils/hour,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Additional PT waiting disutility
+scoring.line_switch,scoring,utility of line switch,-1.0,utils/transfer,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen PT transfer term
+scoring.early_departure,scoring,early departure,-0.0,utils/hour,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Inherited technical setting
+scoring.late_arrival,scoring,late arrival,-18.0,utils/hour,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Inherited technical setting
+scoring.subpopulation,scoring,scoring subpopulation,null,default population,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,The frozen scoring parameters apply to the default population
+scoring.mode.ride.constant,mode_scoring,ride constant,0.0,utils,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Ride is retained for technical compatibility and is not a mode-choice alternative
+scoring.mode.other.constant,mode_scoring,other constant,0.0,utils,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Other is retained for technical compatibility and is not a mode-choice alternative
+scoring.mode.car.travel_time,mode_scoring,car marginal utility of travelling,0.0,utils/hour,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Travel still displaces activity time
+scoring.mode.pt.travel_time,mode_scoring,pt marginal utility of travelling,0.0,utils/hour,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Travel still displaces activity time
+scoring.mode.walk.travel_time,mode_scoring,walk marginal utility of travelling,0.0,utils/hour,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Travel still displaces activity time
+scoring.mode.bike.travel_time,mode_scoring,bike marginal utility of travelling,0.0,utils/hour,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Travel still displaces activity time
+scoring.mode.ride.travel_time,mode_scoring,ride marginal utility of travelling,-6.0,utils/hour,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Ride is not a mode-choice alternative
+scoring.mode.other.travel_time,mode_scoring,other marginal utility of travelling,-6.0,utils/hour,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Other is not a mode-choice alternative
+scoring.mode.car.distance,mode_scoring,car marginal utility of distance,0.0,utils/metre,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen structural scoring
+scoring.mode.pt.distance,mode_scoring,pt marginal utility of distance,0.0,utils/metre,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen structural scoring
+scoring.mode.walk.distance,mode_scoring,walk marginal utility of distance,0.0,utils/metre,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen structural scoring
+scoring.mode.bike.distance,mode_scoring,bike marginal utility of distance,0.0,utils/metre,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen structural scoring
+scoring.mode.ride.distance,mode_scoring,ride marginal utility of distance,0.0,utils/metre,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen structural scoring
+scoring.mode.other.distance,mode_scoring,other marginal utility of distance,0.0,utils/metre,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen structural scoring
+scoring.mode.car.money_distance,mode_scoring,car monetary distance rate,-0.00020,money_unit/metre,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Equivalent to 0.20 money units per kilometre
+scoring.mode.pt.money_distance,mode_scoring,pt monetary distance rate,0.0,money_unit/metre,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen structural scoring
+scoring.mode.walk.money_distance,mode_scoring,walk monetary distance rate,0.0,money_unit/metre,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen structural scoring
+scoring.mode.bike.money_distance,mode_scoring,bike monetary distance rate,0.0,money_unit/metre,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen structural scoring
+scoring.mode.ride.money_distance,mode_scoring,ride monetary distance rate,0.0,money_unit/metre,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen structural scoring
+scoring.mode.other.money_distance,mode_scoring,other monetary distance rate,0.0,money_unit/metre,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen structural scoring
+scoring.mode.car.daily_money,mode_scoring,car daily monetary constant,0.0,money_unit/day,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+scoring.mode.pt.daily_money,mode_scoring,pt daily monetary constant,0.0,money_unit/day,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+scoring.mode.walk.daily_money,mode_scoring,walk daily monetary constant,0.0,money_unit/day,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+scoring.mode.bike.daily_money,mode_scoring,bike daily monetary constant,0.0,money_unit/day,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+scoring.mode.ride.daily_money,mode_scoring,ride daily monetary constant,0.0,money_unit/day,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+scoring.mode.other.daily_money,mode_scoring,other daily monetary constant,0.0,money_unit/day,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+scoring.mode.car.daily_utility,mode_scoring,car daily utility constant,0.0,utils/day,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+scoring.mode.pt.daily_utility,mode_scoring,pt daily utility constant,0.0,utils/day,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+scoring.mode.walk.daily_utility,mode_scoring,walk daily utility constant,0.0,utils/day,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+scoring.mode.bike.daily_utility,mode_scoring,bike daily utility constant,0.0,utils/day,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+scoring.mode.ride.daily_utility,mode_scoring,ride daily utility constant,0.0,utils/day,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+scoring.mode.other.daily_utility,mode_scoring,other daily utility constant,0.0,utils/day,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+scoring.activity.dummy.duration,activity_scoring,dummy typical duration,02:00:00,time,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,No 2040 recalibration
+scoring.activity.home.duration,activity_scoring,home typical duration,12:00:00,time,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,No 2040 recalibration
+scoring.activity.work.duration,activity_scoring,work typical duration,08:00:00,time,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,No 2040 recalibration
+scoring.activity.education.duration,activity_scoring,education typical duration,08:00:00,time,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,No 2040 recalibration
+scoring.activity.shopping.duration,activity_scoring,shopping typical duration,01:00:00,time,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,No 2040 recalibration
+scoring.activity.other.duration,activity_scoring,other typical duration,01:00:00,time,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,No 2040 recalibration
+scoring.activity.airport.duration,activity_scoring,airport typical duration,01:00:00,time,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,No 2040 recalibration
+scoring.activity.car_interaction.enabled,activity_scoring,car interaction scoring,false,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Stage activities are not scored as main activities
+scoring.activity.pt_interaction.enabled,activity_scoring,pt interaction scoring,false,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Stage activities are not scored as main activities
+scoring.activity.bike_interaction.enabled,activity_scoring,bike interaction scoring,false,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Stage activities are not scored as main activities
+scoring.activity.walk_interaction.enabled,activity_scoring,walk interaction scoring,false,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Stage activities are not scored as main activities
+scoring.activity.ride_interaction.enabled,activity_scoring,ride interaction scoring,false,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Stage activities are not scored as main activities
+scoring.activity.other_interaction.enabled,activity_scoring,other interaction scoring,false,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Stage activities are not scored as main activities
+scoring.activity.drt_interaction.enabled,activity_scoring,drt interaction scoring,false,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Stage activities are not scored as main activities
+scoring.activity.taxi_interaction.enabled,activity_scoring,taxi interaction scoring,false,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Stage activities are not scored as main activities
+choice.modes,mode_choice,SubtourModeChoice alternatives,"car,pt,walk,bike",mode list,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Ride and other are excluded
+choice.chain_modes,mode_choice,chain-based modes,"car,bike",mode list,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen Round 5 choice set
+choice.behavior,mode_choice,SubtourModeChoice behavior,fromSpecifiedModesToSpecifiedModes,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Open-tour behavior is not permitted
+choice.car_availability,mode_choice,considerCarAvailability,false,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,No defensible ownership or licence attributes exist
+choice.random_single_trip,mode_choice,probaForRandomSingleTripMode,0.0,probability,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Subtour consistency retained
+choice.coord_distance,mode_choice,coordDistance,0.0,metres,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen SubtourModeChoice setting
+strategy.change_exp_beta,replanning,ChangeExpBeta weight,0.8,share,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+strategy.reroute,replanning,ReRoute weight,0.1,share,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+strategy.subtour_mode_choice,replanning,SubtourModeChoice weight,0.1,share,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+strategy.plan_memory,replanning,maxAgentPlanMemorySize,4,plans/person,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+strategy.plan_removal,replanning,planSelectorForRemoval,WorstPlanSelector,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+strategy.disable_fraction,replanning,fractionOfIterationsToDisableInnovation,0.8,fraction,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Innovation active through iteration 48 and inactive from iteration 49
+controller.first_iteration,run_control,first iteration,0,iteration,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+controller.last_iteration,run_control,last iteration,60,iteration,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+controller.mobsim,run_control,mobsim,qsim,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+controller.overwrite,run_control,overwrite policy,failIfDirectoryExists,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Every scenario output must be protected
+controller.routing_algorithm,run_control,routing algorithm,SpeedyALT,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+controller.write_events_interval,run_control,write events interval,50,iterations,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Technical output setting frozen across scenarios
+controller.write_plans_interval,run_control,write plans interval,50,iterations,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Technical output setting frozen across scenarios
+controller.write_snapshots_interval,run_control,write snapshots interval,0,iterations,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Technical output setting frozen across scenarios
+controller.write_trips_interval,run_control,write trips interval,50,iterations,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Technical output setting frozen across scenarios
+controller.create_graphs_interval,run_control,create graphs interval,1,iterations,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Technical output setting frozen across scenarios
+controller.dump_data_at_end,run_control,dump data at end,true,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Technical output setting frozen across scenarios
+global.seed,run_control,random seed,4711,integer,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+global.threads,run_control,global threads,4,threads,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Technical setting frozen across scenarios
+qsim.threads,run_control,QSim threads,2,threads,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Technical setting frozen across scenarios
+global.crs,spatial,coordinate system,EPSG:31468,CRS,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+plans.activity_duration_interpretation,plans,activity duration interpretation,tryEndTimeThenDuration,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+plans.missing_routing_mode,plans,handling of plans without routing mode,reject,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Fail closed on incomplete plans
+plans.network_route_type,plans,network route type,LinkNetworkRoute,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+plans.trip_duration_handling,plans,trip duration handling,ignoreDelays,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+qsim.end_time,qsim,QSim end time,48:00:00,time,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Prevents the documented 43-hour truncation
+qsim.flow_factor,qsim,flow capacity factor,0.05,fraction,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Five-percent sample
+qsim.storage_factor,qsim,storage capacity factor,0.05,fraction,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Five-percent sample
+qsim.main_mode,qsim,QSim main mode,car,mode,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+qsim.waiting_vehicle_order,qsim,insert waiting vehicles before driving vehicles,true,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+qsim.remove_stuck,qsim,remove stuck vehicles,false,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Stuck events remain observable
+qsim.stuck_time,qsim,stuck time,10.0,seconds,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+qsim.missing_vehicle_id,qsim,use person ID for missing vehicle ID,true,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+qsim.vehicle_behavior,qsim,vehicle behavior,teleport,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+qsim.vehicles_source,qsim,vehicles source,defaultVehicle,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+routing.network_modes,routing,network modes,car,mode list,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+routing.access_egress,routing,access-egress type,none,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+routing.clear_default_teleported,routing,clear default teleported mode parameters,false,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+routing.consistency,routing,network route consistency check,abortOnInconsistency,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Fail closed
+routing.randomness,routing,routing randomness,3.0,dimensionless,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+routing.walk.speed,routing,walk teleported speed,1.333333333,metres/second,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+routing.walk.beeline,routing,walk beeline-distance factor,1.3,factor,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+routing.non_network_walk.speed,routing,non-network walk teleported speed,1.333333333,metres/second,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+routing.non_network_walk.beeline,routing,non-network walk beeline-distance factor,1.3,factor,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+routing.bike.speed,routing,bike teleported speed,3.805555556,metres/second,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+routing.bike.beeline,routing,bike beeline-distance factor,1.3,factor,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+routing.ride.freespeed,routing,ride teleported freespeed factor,1.0,factor,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Ride is not a choice alternative
+routing.ride.beeline,routing,ride beeline-distance factor,1.3,factor,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Ride is not a choice alternative
+routing.pt.freespeed,routing,PT teleported freespeed factor,2.0,factor,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,SwissRailRaptor supplies productive PT routing
+routing.pt.beeline,routing,PT beeline-distance factor,1.3,factor,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,SwissRailRaptor supplies productive PT routing
+transit.algorithm,transit,transit routing algorithm,SwissRailRaptor,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+transit.use_transit,transit,use transit,true,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+transit.use_in_mobsim,transit,use transit in mobsim,true,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+transit.modes,transit,transit modes,pt,mode list,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+transit.transfer,transit_router,additional transfer time,0.0,seconds,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+transit.direct_walk,transit_router,direct walk factor,1.0,factor,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+transit.extension_radius,transit_router,extension radius,200.0,metres,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+transit.max_walk_connection,transit_router,maximum beeline walk connection,100.0,metres,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+transit.search_radius,transit_router,search radius,1000.0,metres,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+travel_time.modes,routing,travel-time-calculator analyzed modes,car,mode list,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+travel_time.calculate,routing,calculate link travel times,true,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+travel_time.filter_modes,routing,filter modes,false,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+travel_time.max_time,routing,maximum travel-time-calculator time,108000,seconds,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+travel_time.separate_modes,routing,separate modes,true,boolean,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+travel_time.aggregator,routing,travel-time aggregator,optimistic,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+travel_time.bin_size,routing,travel-time bin size,900.0,seconds,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+travel_time.getter,routing,travel-time getter,average,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,
+vsp.defaults_checking,run_control,VSP defaults checking level,ignore,enum,scenarios/munich_calibration_2019/config_literature_based_scoring_calibration_round_5.xml,IDENTICAL,Frozen technical compatibility setting
+analysis.population,analysis,simulation population,complete regional five-percent population,all persons,docs/methodology/production_2040_scenario_contract.md,IDENTICAL,No person or trip is removed before simulation
+analysis.scope,analysis,primary spatial scope,BOTH_INSIDE,main trips,docs/methodology/production_2040_scenario_contract.md,IDENTICAL,Origin and destination covered by Munich municipal boundary
+analysis.boundary_rule,analysis,boundary predicate,covers,EPSG:31468,original-input-data/munich-demography/munich_boundary.json,IDENTICAL,Points on the municipal boundary are included
+analysis.trip_definition,analysis,main-trip definition,MATSim TripStructureUtils with official stage-activity handling,selected plans,docs/methodology/production_2040_scenario_contract.md,IDENTICAL,Stage activities are not separate trips
+analysis.main_mode,analysis,main-mode definition,MATSim standard analysis main-mode identifier,main trips,docs/methodology/production_2040_scenario_contract.md,IDENTICAL,PT access egress and transfer legs are not separate main trips
+analysis.modes,analysis,reported primary modes,"car,pt,bike,walk",mode list,docs/methodology/production_2040_scenario_contract.md,IDENTICAL,Ride and any other unexpected main mode must be reported separately and never folded silently into a target mode
+analysis.sample_factor,scaling,simulation sample,0.05,fraction,docs/methodology/production_2040_scenario_contract.md,IDENTICAL,
+analysis.expansion_factor,scaling,absolute-output expansion factor,20.0,factor,docs/methodology/production_2040_scenario_contract.md,IDENTICAL,Applies to persons trips Pkm and event-based Fkm
+analysis.share_scaling,scaling,modal-share expansion,none,rule,docs/methodology/production_2040_scenario_contract.md,IDENTICAL,Shares remain unscaled
+analysis.reporting,scaling,reporting layers,sample and expanded,rule,docs/methodology/production_2040_scenario_contract.md,IDENTICAL,Always report both layers separately
+target.trip.car,calibration_target,car trip share,34.0,percent,scenarios/munich_calibration_2019/output/literature-based-scoring-calibration-round-5/analysis/round_5_final_calibration_assessment.csv,FROZEN_REFERENCE,Not a 2040 recalibration target
+target.trip.pt,calibration_target,pt trip share,24.0,percent,scenarios/munich_calibration_2019/output/literature-based-scoring-calibration-round-5/analysis/round_5_final_calibration_assessment.csv,FROZEN_REFERENCE,Not a 2040 recalibration target
+target.trip.bike,calibration_target,bike trip share,18.0,percent,scenarios/munich_calibration_2019/output/literature-based-scoring-calibration-round-5/analysis/round_5_final_calibration_assessment.csv,FROZEN_REFERENCE,Not a 2040 recalibration target
+target.trip.walk,calibration_target,walk trip share,24.0,percent,scenarios/munich_calibration_2019/output/literature-based-scoring-calibration-round-5/analysis/round_5_final_calibration_assessment.csv,FROZEN_REFERENCE,Not a 2040 recalibration target

@@ -1,0 +1,5 @@
+scenario_id,sample_factor,unit,mode,window,mean_share_percent,minimum_share_percent,maximum_share_percent,range_percentage_points,linear_trend_pp_per_iteration,range_status,trend_status,measurement_coverage_percent,definition
+BAU_2040,0.05,percent,car,51-60,32.660080978758,32.360821183780,32.938301637656,0.577480453876,0.066232103577,PASS,PASS,100.000000000000,"unscaled iteration-end BOTH_INSIDE main-trip shares"
+BAU_2040,0.05,percent,pt,51-60,29.110274659347,28.852106927026,29.311790134618,0.459683207592,0.050612138911,PASS,PASS,100.000000000000,"unscaled iteration-end BOTH_INSIDE main-trip shares"
+BAU_2040,0.05,percent,bike,51-60,19.559602667149,19.261767397010,19.890749902749,0.628982505739,-0.071485246455,PASS,PASS,100.000000000000,"unscaled iteration-end BOTH_INSIDE main-trip shares"
+BAU_2040,0.05,percent,walk,51-60,18.670041694746,18.488140830717,18.896321986445,0.408181155728,-0.045358996032,PASS,PASS,100.000000000000,"unscaled iteration-end BOTH_INSIDE main-trip shares"

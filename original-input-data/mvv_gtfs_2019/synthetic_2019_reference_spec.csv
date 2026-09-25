@@ -1,0 +1,27 @@
+field,value,evidence_or_rule
+input_label,synthetic 2019 reference supply extracted from the combined forecast dataset,approved project decision
+source_file,gtfs_2019.zip,unchanged combined delivery
+source_sha256,92844C3EF84167548C4E373A1B14445EA5AC211D918BDB77422EC7B2E11693C4,read-only SHA-256
+source_size_bytes,61666332,read-only file size
+route_inclusion,Analyse_2019=1,approved project decision
+forecast_flag_rule,Prognosenetz_2037 is not an exclusion criterion,approved project decision
+technical_service_date,2026-02-13,sole active service date; activation only and not a historical date
+source_crs,EPSG:4326,GTFS WGS84 longitude/latitude
+model_crs,EPSG:31468,MATSim Munich coordinate system
+model_space_network,scenarios/munich_base_2023/studyNetworkDense.xml,public starting model
+model_space_rule,retain a trip with at least two distinct calls inside the network extent,identical spatial rule to cleaned GTFS 2037
+boundary_rule,retain every stop time of each selected trip,no artificial line truncation
+route_type_rule,validated GTFS 2037 custom-metadata classifier,approved project decision
+stop_merge_rule,doNotMerge,conversion assumption
+extended_route_types,true,conversion assumption
+active_departure_rule,all 59103 trips active on the sole technical service date,no cross-date copying is required
+pt_pseudonetwork,true,conversion assumption
+transit_vehicles,true,conversion assumption
+agency_timezone_correction,unknown or blank to Europe/Berlin,technical GTFS validity correction identical to GTFS 2037
+missing_feed_documentation,limitation,no feed_info or independent confirmation of custom scenario-flag semantics
+after_midnight_rule,retain monotonic GTFS services beyond 24:00,source uses GTFS service-day times through 42:30
+maximum_accepted_service_horizon,48:00:00,fail-closed modelling bound for a day-based calibration input
+qsim_end_time_rule,first complete hour strictly after the latest accepted vehicle arrival,derived reproducibly from the converted schedule
+current_latest_vehicle_arrival,42:30:00,complete read-only schedule audit
+current_qsim_end_time,43:00:00,derived by qsim_end_time_rule
+long_duration_route_rule,review route patterns longer than 08:00 without automatic exclusion,technical audit threshold only

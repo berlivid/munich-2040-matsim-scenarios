@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="P8B Analyze Existing Fast Track 2040 Production Output" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="org.matsim.project.prepare.AnalyzeExistingMatsim2040ProductionOutput" />
+    <module name="matsim-example-project" />
+    <shortenClasspath name="ARGS_FILE" />
+    <option name="PROGRAM_PARAMETERS" value="FAST_TRACK" />
+    <option name="VM_PARAMETERS" value="-Djava.awt.headless=true -Xms2g -Xmx8g" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <method v="2"><option name="Make" enabled="true" /></method>
+  </configuration>
+</component>

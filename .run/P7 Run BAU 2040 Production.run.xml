@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="P7 Run BAU 2040 Production" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="org.matsim.project.prepare.RunMatsim2040Production" />
+    <module name="matsim-example-project" />
+    <shortenClasspath name="ARGS_FILE" />
+    <option name="PROGRAM_PARAMETERS" value="BAU" />
+    <option name="VM_PARAMETERS" value="-Djava.awt.headless=true -Xms4g -Xmx16g" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <method v="2"><option name="Make" enabled="true" /></method>
+  </configuration>
+</component>

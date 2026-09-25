@@ -1,0 +1,22 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Pedestrian-zone preflight</title><style>body{font:14px system-ui;margin:20px;color:#20242a}svg{border:1px solid #bbb;background:#fafafa}.osm{fill:none;stroke:#aaa;stroke-width:4}.hws{stroke:#1967d2}.kreuz{stroke:#d93025}.cand{fill:none;stroke-width:2.4}.low{stroke-dasharray:6 4}text{font-size:11px;paint-order:stroke;stroke:white;stroke-width:3px;stroke-linejoin:round}.legend{display:flex;gap:20px;margin:10px 0}</style><h1>Fast Track pedestrian-zone candidate links</h1><p>Schematic geometry check, WGS84. Grey: current OSM street centre lines; colour: selected MATSim car links. No network change has been made.</p><div class=legend><span style="color:#1967d2">Herzog-Wilhelm-Straße</span><span style="color:#d93025">Kreuzstraße</span></div><svg viewBox="0 0 1000 800" width="1000" height="800">
+<polyline class="osm" points="533.170,487.453 561.428,482.664 585.325,476.293 600.422,465.645 621.094,430.828 636.456,413.787 678.218,367.832 776.005,268.661 782.643,261.956 880.770,158.262 896.550,151.356"/>
+<polyline class="osm" points="812.988,710.345 800.281,697.291 794.439,692.346 767.850,671.429 751.463,662.140"/>
+<polyline class="osm" points="132.997,159.955 164.214,152.493 198.124,147.547 237.080,148.082 267.842,155.990"/>
+<polyline class="osm" points="379.587,498.257 372.304,495.963 366.083,493.312 360.925,489.636 356.866,485.983 336.763,461.814 317.797,428.556 229.721,323.749 205.938,296.038 178.817,267.191 136.069,193.346 127.269,171.806 129.659,166.838 132.997,159.955 103.448,89.675"/>
+<polyline class="osm" points="533.170,487.453 483.556,493.668 426.508,500.730 417.518,501.443 409.211,501.576 399.273,501.131 388.804,500.017 379.587,498.257"/>
+<polyline class="osm" points="533.170,487.453 543.487,500.017 564.918,522.315 608.160,556.018 635.091,577.002 664.298,598.944 719.222,639.552"/>
+<polyline class="osm" points="246.638,93.261 267.842,155.990 294.204,204.907 335.587,250.573 392.180,314.103 484.694,427.331 533.170,487.453"/>
+<polyline class="osm" points="751.463,662.140 719.222,639.552"/>
+<polyline class="cand hws" points="748.924,659.625 719.224,639.533"/><text x="734.07383186439" y="649.5791152026648">39774</text>
+<polyline class="cand hws" points="719.224,639.533 748.924,659.625"/><text x="734.07383186439" y="649.5791152026648">39775</text>
+<polyline class="cand hws" points="812.989,710.325 748.924,659.625"/><text x="780.956678823958" y="684.9753256249726">85662</text>
+<polyline class="cand hws" points="246.640,93.242 267.844,155.970"/><text x="257.2418989075537" y="124.60586729266004">148336</text>
+<polyline class="cand hws" points="267.844,155.970 540.758,495.965"/><text x="404.3007966982043" y="325.9677578320516">148337</text>
+<polyline class="cand hws" points="540.758,495.965 719.224,639.533"/><text x="629.9908771283764" y="567.7490466159213">148338</text>
+<polyline class="cand hws" points="719.224,639.533 540.758,495.965"/><text x="629.9908771283764" y="567.7490466159213">148339</text>
+<polyline class="cand hws" points="540.758,495.965 388.502,512.873"/><text x="464.6302207303868" y="504.4190112304508">148354</text>
+<polyline class="cand hws" points="132.999,159.935 267.844,155.970"/><text x="200.4211021979837" y="157.95270617349627">257668</text>
+<polyline class="cand hws" points="388.502,512.873 132.999,159.935"/><text x="260.7505262301662" y="336.4039595734783">425785</text>
+<polyline class="cand hws" points="132.999,159.935 103.450,89.655"/><text x="118.22439560058022" y="124.79521138845712">425786</text>
+<polyline class="cand kreuz" points="540.758,495.965 896.552,151.337"/><text x="718.6548372554771" y="323.6510769956254">493302</text>
+</svg><h2>Review notes</h2><ul><li>Inspect link labels at Sendlinger-Tor-Platz, Josephspitalstraße and the Herzog-Wilhelm-Straße/Kreuzstraße junction.</li><li>Dashed candidates, if present, have low confidence.</li><li>The diagram deliberately has no basemap; use the GeoJSON for GIS overlay.</li></ul></html>

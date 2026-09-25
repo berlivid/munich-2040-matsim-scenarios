@@ -1,0 +1,14 @@
+measure_id,street_name,matsim_link_id,osm_way_id,match_method,confidence,expected_modes_before,expected_modes_after,action
+XLSX_ROW_06,Herzog-Wilhelm-Straße,39774,366231814,both,high,car,,remove_car_fast_track_only
+XLSX_ROW_06,Herzog-Wilhelm-Straße,39775,366231814,both,high,car,,remove_car_fast_track_only
+XLSX_ROW_06,Herzog-Wilhelm-Straße,85662,4240775,both,high,car,,remove_car_fast_track_only
+XLSX_ROW_06,Herzog-Wilhelm-Straße,148336,30749949,both,high,car,,remove_car_fast_track_only
+XLSX_ROW_06,Herzog-Wilhelm-Straße,148337,30749949,both,high,car,,remove_car_fast_track_only
+XLSX_ROW_06,Herzog-Wilhelm-Straße,148338,30749948,both,high,car,,remove_car_fast_track_only
+XLSX_ROW_06,Herzog-Wilhelm-Straße,148339,30749948,both,high,car,,remove_car_fast_track_only
+XLSX_ROW_06,Herzog-Wilhelm-Straße,148354,30749947,both,high,car,,remove_car_fast_track_only
+XLSX_ROW_06,Herzog-Wilhelm-Straße,257668,4592507,both,high,car,,remove_car_fast_track_only
+XLSX_ROW_06,Herzog-Wilhelm-Straße,425785,27747338,both,high,car,,remove_car_fast_track_only
+XLSX_ROW_06,Herzog-Wilhelm-Straße,425786,27747338,both,high,car,,remove_car_fast_track_only
+XLSX_ROW_06,Kreuzstraße,493302,3927541,both,high,car,,remove_car_fast_track_only
+XLSX_ROW_06,technical boundary connector,126449,107023516,network_topology,high,car,,remove_car_fast_track_only

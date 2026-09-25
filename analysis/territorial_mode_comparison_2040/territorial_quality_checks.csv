@@ -1,0 +1,22 @@
+scenario_id,check,status,detail
+BAU_2040,completed_production_output,PASS,scenarios/munich_bau_2040/output/production-mode-choice
+BAU_2040,root_final_sources_only,PASS,plans=scenarios/munich_bau_2040/output/production-mode-choice/munich-bau-2040-mode-choice.output_plans.xml.gz; events=scenarios/munich_bau_2040/output/production-mode-choice/munich-bau-2040-mode-choice.output_events.xml.gz
+BAU_2040,final_selected_plan_main_trip_scope,PASS,TripStructureUtils with MATSim stage-activity handling
+BAU_2040,modal_share_sum,PASS,100
+BAU_2040,teleported_walk_bike_configuration,PASS,network modes=car
+BAU_2040,cost_input_reconciliation,PASS,scenarios/munich_bau_2040/output/production-mode-choice/analysis/territorial_cost_inputs/BAU_2040_territorial_cost_inputs.xlsx Inputs!A5:I14
+BAU_2040,pt_occupancy_statuses,PASS,bus=PASS_REPORTED_FOR_REVIEW;tram=PASS_REPORTED_FOR_REVIEW;subway=PASS_REPORTED_FOR_REVIEW;rail=PASS_REPORTED_FOR_REVIEW
+BAU_2040,route_geometry,PASS,No unresolved route geometry
+BAU_2040,unexpected_modes,PASS,No unexpected main or positive PT route modes
+BAU_2040,stuck_event_qualification,PASS,events=8; relevant_events=0; no remaining route distance inferred
+FAST_TRACK_2040,completed_production_output,PASS,scenarios/munich_fast_track_2040/output/production-mode-choice
+FAST_TRACK_2040,root_final_sources_only,PASS,plans=scenarios/munich_fast_track_2040/output/production-mode-choice/munich-fast-track-2040-mode-choice.output_plans.xml.gz; events=scenarios/munich_fast_track_2040/output/production-mode-choice/munich-fast-track-2040-mode-choice.output_events.xml.gz
+FAST_TRACK_2040,final_selected_plan_main_trip_scope,PASS,TripStructureUtils with MATSim stage-activity handling
+FAST_TRACK_2040,modal_share_sum,PASS,100
+FAST_TRACK_2040,teleported_walk_bike_configuration,PASS,network modes=car
+FAST_TRACK_2040,cost_input_reconciliation,PASS,scenarios/munich_fast_track_2040/output/production-mode-choice/analysis/territorial_cost_inputs/Fast_Track_2040_territorial_cost_inputs.xlsx Inputs!A5:I14
+FAST_TRACK_2040,pt_occupancy_statuses,PASS,bus=PASS_REPORTED_FOR_REVIEW;tram=PASS_REPORTED_FOR_REVIEW;subway=PASS_REPORTED_FOR_REVIEW;rail=PASS_REPORTED_FOR_REVIEW
+FAST_TRACK_2040,route_geometry,PASS,No unresolved route geometry
+FAST_TRACK_2040,unexpected_modes,PASS,No unexpected main or positive PT route modes
+FAST_TRACK_2040,stuck_event_qualification,PASS,events=13; relevant_events=1; no remaining route distance inferred
+COMPARISON,boundary,PASS,7CCDF488C7FBFF1E0AD93CE7D1858B9AC697F09E514DE661975BB231792E0051

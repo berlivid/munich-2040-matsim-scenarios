@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="01 Build Synthetic GTFS 2019" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="org.matsim.project.prepare.BuildSyntheticGtfs2019Reference" />
+    <module name="matsim-example-project" />
+    <option name="PROGRAM_PARAMETERS" value="build" />
+    <option name="VM_PARAMETERS" value="-Xms1g -Xmx4g" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

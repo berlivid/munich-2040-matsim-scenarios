@@ -1,0 +1,5 @@
+scenario_id,scope_id,sample_factor,unit,main_mode,distance_metric,sample_daily_distance_km,expanded_daily_distance_km_factor_20,illustrative_annual_equivalent_365_days,vehicle_km_applicability,definition
+BAU_2040,BOTH_INSIDE,0.05,distance_km,bike,derived_bike_km,247161.239000000000,4943224.780000000000,1804277044.700000000000,DERIVED_ONE_PERSON_PER_BIKE,"bike-km equals bike Pkm under an explicit one-person-per-bike convention; not event-observed motor-vehicle Fkm"
+BAU_2040,BOTH_INSIDE,0.05,distance_km,walk,walk_person_km,119170.678000000000,2383413.560000000000,869945949.400000000000,NOT_APPLICABLE,"walk distance is Pkm only and is never labelled vehicle-kilometres"
+BAU_2040,MUNICH_RESIDENTS,0.05,distance_km,bike,derived_bike_km,262377.693000000000,5247553.860000000000,1915357158.900000000000,DERIVED_ONE_PERSON_PER_BIKE,"bike-km equals bike Pkm under an explicit one-person-per-bike convention; not event-observed motor-vehicle Fkm"
+BAU_2040,MUNICH_RESIDENTS,0.05,distance_km,walk,walk_person_km,31840.743000000000,636814.860000000000,232437423.900000000000,NOT_APPLICABLE,"walk distance is Pkm only and is never labelled vehicle-kilometres"

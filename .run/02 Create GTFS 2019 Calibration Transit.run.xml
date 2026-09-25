@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="02 Create GTFS 2019 Calibration Transit" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="org.matsim.project.prepare.CreateGtfs2019CalibrationTransit" />
+    <module name="matsim-example-project" />
+    <option name="VM_PARAMETERS" value="-Xms2g -Xmx8g" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

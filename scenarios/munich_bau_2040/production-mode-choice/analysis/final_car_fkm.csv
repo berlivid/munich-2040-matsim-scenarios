@@ -1,0 +1,2 @@
+scenario_id,sample_factor,unit,vehicle_class,sample_vehicle_km,expanded_vehicle_km_factor_20,considered_vehicles,unassigned_vehicles,missing_links,car_sample_person_km,car_pkm_to_fkm_ratio,measurement_coverage_percent,definition
+BAU_2040,0.05,vehicle_km,private_car,3152114.551887584400,63042291.037751690000,162331,0,0,406182.782000000000,0.128860412689,100.000000000000,"VehicleEntersTraffic remainder of first link plus each LinkEnter once minus untravelled final-link remainder at VehicleLeavesTraffic; transit vehicles excluded"

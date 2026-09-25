@@ -1,0 +1,5 @@
+scenario_id,sample_factor,unit,main_mode,sample_trip_count,unscaled_trip_share_percent,expanded_trip_count_factor_20,measurement_coverage_percent,definition
+BAU_2040,0.05,trips,car,60118,32.938301637656,1202360.000000000000,100.000000000000,"final selected-plan BOTH_INSIDE MATSim main trips; stage activities excluded"
+BAU_2040,0.05,trips,pt,53499,29.311790134618,1069980.000000000000,100.000000000000,"final selected-plan BOTH_INSIDE MATSim main trips; stage activities excluded"
+BAU_2040,0.05,trips,bike,35156,19.261767397010,703120.000000000000,100.000000000000,"final selected-plan BOTH_INSIDE MATSim main trips; stage activities excluded"
+BAU_2040,0.05,trips,walk,33744,18.488140830717,674880.000000000000,100.000000000000,"final selected-plan BOTH_INSIDE MATSim main trips; stage activities excluded"
